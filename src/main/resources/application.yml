@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_database_name
+    username: my_username
+    password: my_password
+
+weatherapi:
+  base-url: https://api.weatherapi.com/v1
+  endpoint: current.json
+  api-key: 1d4d2c3748a94139bc1223153242702
+  city-names:
+    - "New York"
+    - "London"
+  zip-codes:
+    - 64622
+    - 64623
